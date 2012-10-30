@@ -1,200 +1,4 @@
-//test 用于单元测试
-var test = test || {};
-test.data = [
-//2011.8.17
-	{
-		id:'132131fesef',
-		time:'1345168843044',
-		width:329,
-		height:398,
-		imageURL:"http://www.yule8gua.com/uploads/allimg/091226/1_091226163059_4.jpg"
-	},
-	{
-		id:'132131fese23f',
-		time:'1345168843044',
-		width:600,
-		height:835,
-		imageURL:"http://www.365zn.com/mrl/pic/mrpic2006in477.jpg"
-	},
-	{
-		id:'132131fesef',
-		time:'1345168843044',
-		width:329,
-		height:398,
-		imageURL:"http://www.yule8gua.com/uploads/allimg/091226/1_091226163059_4.jpg"
-	},
-	{
-		id:'132131fesef',
-		time:'1345168843044',
-		width:600,
-		height:835,
-		imageURL:"http://www.365zn.com/mrl/pic/mrpic2006in477.jpg"
-	},
-	{
-		id:'132131fesef',
-		time:'1345168843044',
-		width:500,
-		height:441,
-		imageURL:"http://pic.66wz.com/0/01/03/57/1035773_781886.jpg"
-	},
-	{
-		id:'132131fesef',
-		time:'1345168843044',
-		width:329,
-		height:398,
-		imageURL:"http://www.yule8gua.com/uploads/allimg/091226/1_091226163059_4.jpg"
-	},
-	{
-		id:'132131fesef',
-		time:'1345168843044',
-		width:600,
-		height:835,
-		imageURL:"http://www.365zn.com/mrl/pic/mrpic2006in477.jpg"
-	},
-	{
-		id:'132131f12esef',
-		time:'1345168843044',
-		width:600,
-		height:407,
-		imageURL:"http://pic.people.com.cn/mediafile/201003/11/F201003111441522664926587.jpg"
-	},
-	{
-		id:'1a55sldflwe',
-		time:'1345131939576',
-		width:600,
-		height:407,
-		imageURL:"http://pic.people.com.cn/mediafile/201003/11/F201003111441522664926587.jpg"
-	},
-//2011.8.16	
-	{
-		id:'1321wf2weesef',
-		time:'1345130185274',
-		width:324,
-		height:460,
-		imageURL:"http://www.sc.xinhuanet.com/content/2006-04/12/xin_4504031216212332931194.jpg"
-	},
-	{
-		id:'1321wf3weesef',
-		time:'1345130185274',
-		width:600,
-		height:835,
-		imageURL:"http://www.365zn.com/mrl/pic/mrpic2006in477.jpg"
-	},
-	{
-		id:'1321wfw113eesef',
-		time:'1345130185274',
-		width:600,
-		height:407,
-		imageURL:"http://pic.people.com.cn/mediafile/201003/11/F201003111441522664926587.jpg"
-	},
-	{
-		id:'1321wfw213eesef',
-		time:'1345130185274',
-		width:600,
-		height:835,
-		imageURL:"http://www.365zn.com/mrl/pic/mrpic2006in477.jpg"
-	},
-	{
-		id:'1321wf2weesef',
-		time:'1345130185274',
-		width:324,
-		height:460,
-		imageURL:"http://www.sc.xinhuanet.com/content/2006-04/12/xin_4504031216212332931194.jpg"
-	},
-	{
-		id:'1321wf3weesef',
-		time:'1345130185274',
-		width:600,
-		height:835,
-		imageURL:"http://www.365zn.com/mrl/pic/mrpic2006in477.jpg"
-	},
-	{
-		id:'1321wfw113eesef',
-		time:'1345130185274',
-		width:600,
-		height:407,
-		imageURL:"http://pic.people.com.cn/mediafile/201003/11/F201003111441522664926587.jpg"
-	},
-	{
-		id:'1321wfw213eesef',
-		time:'1345130185274',
-		width:600,
-		height:835,
-		imageURL:"http://www.365zn.com/mrl/pic/mrpic2006in477.jpg"
-	},
-	{
-		id:'1321wf2weesef',
-		time:'1345130185274',
-		width:324,
-		height:460,
-		imageURL:"http://www.sc.xinhuanet.com/content/2006-04/12/xin_4504031216212332931194.jpg"
-	},
-	{
-		id:'1321wf3weesef',
-		time:'1345130185274',
-		width:600,
-		height:835,
-		imageURL:"http://www.365zn.com/mrl/pic/mrpic2006in477.jpg"
-	},
-	{
-		id:'1321wfw113eesef',
-		time:'1345130185274',
-		width:600,
-		height:407,
-		imageURL:"http://pic.people.com.cn/mediafile/201003/11/F201003111441522664926587.jpg"
-	},
-	{
-		id:'1321wfw213eesef',
-		time:'1345130185274',
-		width:600,
-		height:835,
-		imageURL:"http://www.365zn.com/mrl/pic/mrpic2006in477.jpg"
-	},
-//2011.8.15	
-	{
-		id:'1321wfw123eesef',
-		time:'1347667200000',
-		width:600,
-		height:407,
-		imageURL:"http://pic.people.com.cn/mediafile/201003/11/F201003111441522664926587.jpg"
-	},
-	{
-		id:'1321wfw123eesef',
-		time:'1347667200000',
-		width:329,
-		height:398,
-		imageURL:"http://www.yule8gua.com/uploads/allimg/091226/1_091226163059_4.jpg"
-	},
-	{
-		id:'1321wfw123eesef',
-		time:'1347667200000',
-		width:600,
-		height:407,
-		imageURL:"http://pic.people.com.cn/mediafile/201003/11/F201003111441522664926587.jpg"
-	},
-	{
-		id:'1321wfw123eesef',
-		time:'1347667200000',
-		width:329,
-		height:398,
-		imageURL:"http://www.yule8gua.com/uploads/allimg/091226/1_091226163059_4.jpg"
-	},
-	{
-		id:'1321wfw123eesef',
-		time:'1347667200000',
-		width:329,
-		height:398,
-		imageURL:"http://www.yule8gua.com/uploads/allimg/091226/1_091226163059_4.jpg"
-	},
-	{
-		id:'1321wfw123eesef',
-		time:'1347667200000',
-		width:600,
-		height:407,
-		imageURL:"http://pic.people.com.cn/mediafile/201003/11/F201003111441522664926587.jpg"
-	}
-];
-/** 豆子公司面试题答案
+/**
  *  timeLine 组件
  *  @author 尼奥 
  *  @email 1988wangxiao@gmail.com
@@ -335,8 +139,7 @@ TimeLine.prototype.c = function(){
 				me.flag = true;
 				jQuery.getJSON(url,function(data){
 					me.nextURL = data.nextURL;
-					//me.c().show(data);
-					me.c().show(test.data);
+					me.c().show(data);
 					me.flag = false;
 				});
 			};
@@ -345,8 +148,7 @@ TimeLine.prototype.c = function(){
 			//当滚到底部，获取数据
 			$(document).on('scrollBottom',function(){
 				if(!me.flag){
-					//getData(me.nextURL);
-					getData(me.url);
+					getData(me.nextURL);
 				}
 			});
 		},
@@ -398,7 +200,7 @@ TimeLine.prototype.tools = {
 			var scrollTop = jQuery(document).scrollTop();
 			var winHeight = jQuery(window).height();
 			var docHeight = jQuery(document).height();
-			if(scrollTop >= docHeight - winHeight - 200){
+			if(scrollTop >= docHeight - winHeight - 500){
 				jQuery(document).trigger('scrollBottom');
 			}
 		});

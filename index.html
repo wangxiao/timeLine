@@ -18,9 +18,7 @@
 //test
 void function(){
 
-	var timeLine = new TimeLine('timeLine',{
-		url : 'http://api.flickr.com/services/feeds/photos_public.gne?format=json'
-	});
+	var timeLine = new TimeLine('timeLine',{url:'http://photo-sync.herokuapp.com/photos'});
 	
 	// //测试时间格式化
 	//console.log(timeLine.tools.formatDate(1345130185274));
@@ -37,11 +35,6 @@ void function(){
 	// timeLine.c().show(test.data);
 
 	// console.log(timeLine);
-
-//异步取数据
-// $.getJSON("http://photo-sync.herokuapp.com/photos?jsoncallback=?",function(data){
-
-// });
 
 }();
 
