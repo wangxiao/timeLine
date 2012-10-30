@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>test</title>
+<script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.2.min.js"></script>
+<script type="text/javascript" src="http://wangxiao.github.com/BaiduTemplate/debug/js/baiduTemplate.js"></script>
+
+<link rel="stylesheet" type="text/css" href="timeLine.css">
+<script type="text/javascript" src="timeLine.js"></script>
+</head>
+<body>
+	<div id='timeLine'></div>
+<script>
+
+
+
+//test
+void function(){
+
+	var timeLine = new TimeLine('timeLine',{
+		url : 'http://api.flickr.com/services/feeds/photos_public.gne?format=json'
+	});
+	
+	// //测试时间格式化
+	//console.log(timeLine.tools.formatDate(1345130185274));
+	// console.log(timeLine.tools.formatDate(1345130185274,'y-d-m'));
+
+	// //数据获取测试
+	// console.log(timeLine.m().getData(test.data));
+
+	// //获取模板
+	// console.log(timeLine.v().getTpl());
+
+	// timeLine.tools.scrollBottom();
+
+	// timeLine.c().show(test.data);
+
+	// console.log(timeLine);
+
+//异步取数据
+// $.getJSON("http://photo-sync.herokuapp.com/photos?jsoncallback=?",function(data){
+
+// });
+
+}();
+
+</script>
+
+</body>
+</html>
